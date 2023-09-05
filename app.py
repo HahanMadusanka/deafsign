@@ -189,6 +189,7 @@ def predict_en():
         "result": result
     }
 
+    print(res)
     return jsonify(res)
 
 
@@ -201,7 +202,7 @@ def predict_sl():
     res = {
         "result": result
     }
-
+    print(res)
     return jsonify(res)
 
 
